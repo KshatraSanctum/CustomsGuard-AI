@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+sentence-transformers
+pytesseract
+Pillow
+python-dotenv
+google-genai
+PyPDF2
+pgvector

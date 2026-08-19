@@ -1,0 +1,12 @@
+{
+  "name": "customguard-ai",
+  "version": "1.0.0",
+  "scripts": {
+    "dev:all": "concurrently \"python -m uvicorn app.main:app --reload --port 8000\" \"cd frontend && npm run dev\""
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.20",
+    "concurrently": "^10.0.5",
+    "react-markdown": "^10.1.0"
+  }
+}
